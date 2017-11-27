@@ -1,0 +1,165 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+/*Header Section*/
+
+header {
+  display: flex;
+  height: 69px;
+  width: 100%;
+  padding: 10px;
+  border-bottom: 1px solid seashell;
+  top: 0;
+  left: 0;
+  position: fixed;
+  align-items: center;
+  z-index: 10;
+  background-color: black;
+}
+
+.logo {
+  height: 50px;
+}
+
+/*
+.header li {
+  list-style: none;
+  display: inline-flex;
+}
+*/
+
+nav {
+  text-align: right;
+}
+
+nav span {
+  display: inline-block;
+  justify-content: flex-end;
+  padding: 20px 10px;
+}
+
+nav a {
+  text-decoration: underline;
+  color: seashell;
+}
+
+/*End Header*/
+/*Sizing*/
+.main {
+  padding-top: 69px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.mission {
+  display: flex;
+  height: 700px;
+  background-image: url("../img-mission-background.jpg");
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.our-mission {
+  display: flex;
+  width: 1200px;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  flex-wrap: wrap;
+}
+
+.featured {
+  display: block;
+  width: 1000px;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  padding-top: 70px;
+  align-items: center;
+  margin: auto;
+}
+
+.featured-text {
+  display: block;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  display: inline-block;
+  flex-wrap: wrap;
+  padding: 10px;
+  margin: auto;
+}
+
+.box img {
+  height: 200px;
+  width: 300px;
+}
+
+.locations {
+  display: flex;
+  padding-top: 70px;
+  height: 500px;
+  width: 1200px;
+  background-image: url("../img-locations-background.jpg");
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+h2.location-box {
+  display: block;
+  flex-wrap: wrap;
+  width: 100%
+}
+
+.location-box {
+  display: block;
+  background-color: black;
+  width: 300px;
+  opacity: 1;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.contact {
+  height: 200px;
+  background-color: black;
+  text-align: center;
+}
+
+footer {
+  background-color: black;
+  text-align: left;
+  padding-left: 20px;
+}
+
+/*End Sizing*/
+/*Text Attributes*/
+h2, h3, h4 {
+  display: block;
+  margin: 0px;
+  padding: 10px;
+}
+
+/*End Text Attributes*/
