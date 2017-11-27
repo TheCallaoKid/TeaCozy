@@ -87,18 +87,23 @@ nav a {
   justify-content: center;
   text-align: center;
   padding-top: 70px;
+  align-items: center;
+  margin: auto;
 }
 
 .featured-text {
-  display: flex;
+  display: block;
   flex-wrap: wrap;
   text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .box {
   display: inline-block;
   flex-wrap: wrap;
   padding: 10px;
+  margin: auto;
 }
 
 .box img {
@@ -117,6 +122,14 @@ nav a {
   align-items: center;
   justify-content: center;
   text-align: center;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+h2.location-box {
+  display: block;
+  flex-wrap: wrap;
+  width: 100%
 }
 
 .location-box {
@@ -126,11 +139,13 @@ nav a {
   opacity: 1;
   justify-content: space-around;
   flex-wrap: wrap;
+  margin: auto;
 }
 
 .contact {
   height: 200px;
   background-color: black;
+  text-align: center;
 }
 
 footer {
